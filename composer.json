@@ -22,7 +22,9 @@
         "laravelcollective/html": "^6.2",
         "tcg/voyager": "^1.4",
         "appointer/swaggervel": "*",
-        "infyomlabs/swagger-generator": "*"
+        "infyomlabs/swagger-generator": "*",
+        "mikehaertl/php-shellcommand": "^1.1",
+        "ext-json": "*"
     },
     "require-dev": {
         "barryvdh/laravel-ide-helper": "^2.10",

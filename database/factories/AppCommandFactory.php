@@ -2,7 +2,7 @@
 
 namespace Database\Factories;
 
-use App\Models\AppCommand;
+use App\Models\Command;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class AppCommandFactory extends Factory
@@ -12,7 +12,7 @@ class AppCommandFactory extends Factory
      *
      * @var string
      */
-    protected $model = AppCommand::class;
+    protected $model = Command::class;
 
     /**
      * Define the model's default state.

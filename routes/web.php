@@ -27,4 +27,7 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 
-Route::resource('appCommands', App\Http\Controllers\AppCommandController::class);
+Route::resource('commands', App\Http\Controllers\CommandController::class);
+
+
+Route::resource('executions', App\Http\Controllers\ExecutionController::class);
